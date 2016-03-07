@@ -1,0 +1,17 @@
+{
+    "configuration": {
+        "hubHost"       : 172.16.54.241,
+        "hubPort"       : 4444,
+        "proxy"         : "org.openqa.grid.selenium.proxy.DefaultRemoteProxy",
+        "register"      : true,
+        "registerCycle" : 5000,
+        "maxSession"    : 5
+    },
+    "capabilities": [
+        {
+            "browserName"      : "firefox",
+            "maxInstances"     : 5,
+            "seleniumProtocol" : "WebDriver"
+        }
+    ]
+}
